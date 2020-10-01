@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Search Countries"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/search"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ico"
+        android:src="@drawable/searchico"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/country"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/holo_green_dark"
+        />
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:id="@+id/lstv"
+
+        />
+
+
+</RelativeLayout>
