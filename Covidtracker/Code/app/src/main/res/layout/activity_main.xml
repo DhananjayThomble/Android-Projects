@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
+    <Spinner
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:hint="Search Countries"
